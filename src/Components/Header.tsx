@@ -1,12 +1,11 @@
 
-import { useEffect, type Dispatch, type SetStateAction } from "react";
+import { type Dispatch, type SetStateAction } from "react";
 import { HiOutlineMoon, HiMoon } from "react-icons/hi";
 
 
 //app --> state --> header
 
 //header
-
 
 type headerPropsType = {
     preferredMode: "light" | "dark";
