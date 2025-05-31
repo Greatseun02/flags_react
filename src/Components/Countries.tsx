@@ -1,7 +1,10 @@
 import React from 'react'
+import { Card } from './Card'
 
 export const Countries = () => {
   return (
-    <div>Countries</div>
+    <div>
+        <Card/>
+    </div>
   )
 }
