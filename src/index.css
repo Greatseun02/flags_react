@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header-div{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 6px 19px -12px rgb(0, 0, 0);
+}
+
+.header-title{
+    font-weight: 800;
+}
+
+.header-button{
+    border: 0px;
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
+    background: inherit;
+    color: inherit;
+}
+
+.header-button span{
+    font-weight: 300;
+}
+
+.header-icon{
+    font-size: 18px;
+}
+
+.container{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+#root{
+    font-family: "Nunito Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100,
+        "YTLC" 500;
+}
+
+.app{
+    min-height: 100vh;
+}
+
+
+.app.light{
+    color: hsl(200, 15%, 8%);
+    background-color: hsl(0, 0%, 99%);
+}
+
+.app.dark{
+    background-color: hsl(207, 26%, 17%);
+    color: hsl(0, 0.00%, 100.00%);
+}
+
+.light-input{
+    background-color: hsl(200, 15%, 8%);
+}
+
+.light-elements{
+    background-color: hsl(0, 0.00%, 100.00%);
+}
+
+.dark-elements{
+    background-color: hsl(209, 23%, 22%);
+}
+
+
